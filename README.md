@@ -1,5 +1,5 @@
 
-# Vehicle and Object Detection Project
+# Vehicle Detection and analysis
 
 This repository contains implementations of various object detection and vehicle detection models evaluated on a custom traffic dataset. Models range from lightweight two-stage detectors to modern CNN and transformer-based architectures, as well as a self-supervised pretraining pipeline.
 
@@ -19,8 +19,10 @@ This repository contains implementations of various object detection and vehicle
 ├── MASK RCNN RESNET 101 mask/       # Mask R-CNN with ResNet-101 backbone (masked pretrain)
 ├── MASK RCNN ResNeXt 101 mask/      # Mask R-CNN with ResNeXt-101 backbone (masked pretrain)
 ├── SIMSIAM RetinaNet/               # SimSiam self-supervised pretrain + RetinaNet fine-tune
-├── YOLO\_SAHI/                       # YOLOv5/YOLOv8 with SAHI slicing for improved small-object detection
+├── YOLO\_SAHI/                      # YOLOv5/YOLOv8 with SAHI slicing for improved small-object detection
+├── Yolo + diff detections/          # Yolo Model with Different Detection methords
 └── detr-try/                        # DETR and Sparse R-CNN experiments
+
 
 ````
 
